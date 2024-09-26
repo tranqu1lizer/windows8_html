@@ -1,0 +1,61 @@
+@import url(fonts/style.css);
+
+body{
+    font-family: "Neue Frutiger", sans-serif;
+    background: url("win8-back.png") no-repeat center fixed;
+    background-size: cover;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.container{
+    display:flex;
+    gap: 20px;
+    /* width:100% */
+}
+
+.container__item_block1,.container__item_block2, .container__item_block_3,.container__item_tab_block3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap:20px;
+    width: 322px;
+}
+.container__item-element{
+    width: 300px;
+    height: 130px;
+    border: 1px solid #000;
+    background-size:cover; 
+    background-position:center;
+    position: relative;
+}
+
+.container__item_block_3{
+    justify-content: flex-start; 
+    align-items: start;
+    width: 320px;           
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    gap: 20px;
+}
+.container__item_tab_block3{
+    margin-left: 20%;
+    height:300px;
+}
+.container__item-element:hover{
+    /* background-color: grey; */
+    cursor:-webkit-grab;
+}
+
+.container__item-element_small {
+    width: 139px;
+    height: 130px;
+    border: 1px solid #000;
+    background-size:cover; 
+    background-position:center;
+    position: relative;
+}
+img{
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Neue Frutiger';
+    src: local('Neue Frutiger World Thin'), local('Neue-Frutiger-World-Thin'),
+        url('NeueFrutigerWorld-Thin.woff2') format('woff2'),
+        url('NeueFrutigerWorld-Thin.woff') format('woff'),
+        url('NeueFrutigerWorld-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
